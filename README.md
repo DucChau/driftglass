@@ -47,7 +47,7 @@ flowchart TB
     end
 
     Input --> |float stream| Pipeline
-    Pipeline --> |DetectorResult[]| Output
+    Pipeline --> |"DetectorResult[]"| Output
 ```
 
 ## How It Works
